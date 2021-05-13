@@ -1,600 +1,636 @@
-.wrapper{
-    width: 100%;
-    margin: 0 auto;
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
 }
-.container{
-    width: 80%;
-    margin: 0 auto;
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
-nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style-type: none;
-    text-transform: uppercase;
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  text-transform: uppercase;
 }
-nav a{
-    color: #011689;
-    text-decoration: none;
+nav a {
+  color: #011689;
+  text-decoration: none;
 }
 
- .navRight{
-    width: 17%;
+.navRight {
+  width: 17%;
 }
-.navLeft{
-    width: 13%;
+.navLeft {
+  width: 13%;
 }
-.navLeft .navLogo{
-    background: url('./images/otlogo.png');
-    width: 8.5rem;
-    height: 5rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+.navLeft .navLogo {
+  background: url("./images/otlogo.png");
+  width: 8.5rem;
+  height: 5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-.navMidd{
-    width: 60%;
+.navMidd {
+  width: 60%;
 }
-.social{
-    width: 100%;
+.social {
+  width: 100%;
 }
-.navIcon{
-    color: #011689 !important;
+.navIcon {
+  color: #011689 !important;
 }
-.panorama{
-    width:95%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 2.5rem 0;
-    padding: 2rem;
-    background: yellowgreen;
-    height: 4rem;
-   
+.panorama {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2.5rem 0;
+  padding: 2rem;
+  background: yellowgreen;
+  height: 4rem;
 }
-.ucenjeZabava{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.ucenjeZabava {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .ucenjeTekst {
-width: 50%;
+  width: 50%;
 }
-.ucenjeTekst h1{
-font-weight: bold;
-font-size: 3.7rem;
-color: #0099FF;
-;
+.ucenjeTekst h1 {
+  font-weight: bold;
+  font-size: 3.7rem;
+  color: #0099ff;
 }
-.ucenjeTekst p{
-    font-size: 1.8rem;
-    color: #011689;
+.ucenjeTekst p {
+  font-size: 1.8rem;
+  color: #011689;
 }
-.ucenjeParagraf{
-    width: 50%;
+.ucenjeParagraf {
+  width: 50%;
 }
-.ucenjeVideo{
-    width: 50%;
+.ucenjeVideo {
+  width: 50%;
 }
-.videoContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5rem;
-    background-color: gray;
-    color: #0099FF;
-    height: 5rem;
+.videoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  background-color: gray;
+  color: #0099ff;
+  height: 5rem;
 }
-.panoramaIgre{
-    background: #0099FF;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: auto;
-    padding: 0;
-    height: auto;
-    width: 100%;
+.panoramaIgre {
+  background: #0099ff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  padding: 0;
+  height: auto;
+  width: 100%;
 }
-.edukativneIgreTekst{
-    width: 50%;
+.edukativneIgreTekst {
+  width: 50%;
 }
-.edukativneIgreTekst h1{
-    font-weight: bold;
-font-size: 2.5rem;
-text-transform: uppercase;
+.edukativneIgreTekst h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
 }
-.edukativneIgreTekst p{
-    font-size: 1.3rem;
+.edukativneIgreTekst p {
+  font-size: 1.3rem;
 }
-.edukativneIgreSlika{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-top-left-radius: 3rem;
-    border-bottom-left-radius: 4rem;
-    
+.edukativneIgreSlika {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 4rem;
 }
 
-.edukativneContainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.edukativneContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.gridPonudaIgara{
-    width: 100%;
-    margin: 1rem auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    row-gap: 3rem;
+.gridPonudaIgara {
+  width: 100%;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 3rem;
 }
-.ponudaIgre{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    color:white;
-    height: 15rem;
-    border-radius: 1rem;
+.ponudaIgre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  color: white;
+  height: 15rem;
+  border-radius: 1rem;
 }
-.igra1{
-    border: 1px solid #E00713;
-    background: #E00713;
+.igra1 {
+  border: 1px solid #e00713;
+  background: #e00713;
 }
-.igra2{
-    border: 1px solid #FFDA00;
-    background: #FFDA00;
+.igra2 {
+  border: 1px solid #ffda00;
+  background: #ffda00;
 }
-.igra3{
-    border: 1px solid #92C01F ;
-    background: #92C01F ;
+.igra3 {
+  border: 1px solid #92c01f;
+  background: #92c01f;
 }
-.igra4{
-    border: 1px solid #00A7E7;
-    background: #00A7E7;
+.igra4 {
+  border: 1px solid #00a7e7;
+  background: #00a7e7;
 }
-.igra5{
-    border: 1px solid #009540;
-    background: #009540;
+.igra5 {
+  border: 1px solid #009540;
+  background: #009540;
 }
-.igra6{
-    border: 1px solid #0069B4;
-    background: #0069B4;
+.igra6 {
+  border: 1px solid #0069b4;
+  background: #0069b4;
 }
-.igra7{
-    border: 1px solid #C85096 ;
-    background: #C85096 ;
+.igra7 {
+  border: 1px solid #c85096;
+  background: #c85096;
 }
-.igra8{
-    border: 1px solid #E00713;
-    background: #E00713;
+.igra8 {
+  border: 1px solid #e00713;
+  background: #e00713;
 }
-.ponudaIgre .img{
-    background: white;
-    width: 80%;
-    margin: 0.1rem 0.1rem;
-    padding:0.5rem;
-    border-radius: 1rem;
+.ponudaIgre .img {
+  background: white;
+  width: 80%;
+  margin: 0.1rem 0.1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
-.ponudaIgre .img img{
-    width: 100%;
-    
+.ponudaIgre .img img {
+  width: 100%;
 }
-.ponudaIgre h2{
-    width: 80%;
-    text-align: center;
-    text-transform: uppercase;
+.ponudaIgre h2 {
+  width: 80%;
+  text-align: center;
+  text-transform: uppercase;
 }
-.aktivnosti{
-    width: 90%;
-    margin: 6rem 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* flex-wrap: wrap; >> spusti izbor aktivnosti ispod */
+.aktivnosti {
+  width: 90%;
+  margin: 6rem 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-wrap: wrap; >> spusti izbor aktivnosti ispod */
 }
-.slobodneAktivnosti{
-    width: 75%;
-    background-color: #92C01F;
-    color: white;
-    padding: 1rem;
-    height: auto;
+.slobodneAktivnosti {
+  width: 75%;
+  background-color: #92c01f;
+  color: white;
+  padding: 1rem;
+  height: auto;
 }
-.slobodneAktivnostiTitle{
-    width: 100%;
-    margin: 1rem auto;
-    text-align: center;
+.slobodneAktivnostiTitle {
+  width: 100%;
+  margin: 1rem auto;
+  text-align: center;
 }
-.slobodneAktivnostiTitle h1{
-    font-size: 3.5rem;
-    text-transform: uppercase;
+.slobodneAktivnostiTitle h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
 }
-.slobodneAktivnostiContent{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.slobodneAktivnostiContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.sacSlika{
-    width: 30%;
-    margin-left: 7rem;
-    height: auto;
+.sacSlika {
+  width: 30%;
+  margin-left: 7rem;
+  height: auto;
 }
-.sacImg{
-    width:70%;
-   
+.sacImg {
+  width: 70%;
 }
-.sacTekst{
-    width: 35%;
+.sacTekst {
+  width: 35%;
 }
-.sacTekst p{
-    font-size: 1.5rem;
+.sacTekst p {
+  font-size: 1.5rem;
 }
-.izaberiAktivnost{
-    width: 20%;
-    color: white;
-    background: #00A7E7;
-padding: 1rem;
-    text-transform: uppercase;
-    margin-left: 2.5rem;
+.izaberiAktivnost {
+  width: 20%;
+  color: white;
+  background: #00a7e7;
+  padding: 1rem;
+  text-transform: uppercase;
+  margin-left: 2.5rem;
 }
-.izaberiAktivnost h2{
-    font-size: 1.2rem;
-    text-align: center;
+.izaberiAktivnost h2 {
+  font-size: 1.2rem;
+  text-align: center;
 }
-.gridPonudaAktivnosti{
-    display: grid;
-    grid-template-columns: repeat(2, 0.7fr);
-    row-gap: 1rem;
-    column-gap: 1rem;
+.gridPonudaAktivnosti {
+  display: grid;
+  grid-template-columns: repeat(2, 0.7fr);
+  row-gap: 1rem;
+  column-gap: 1rem;
 }
-.gridPonudaAktivnosti a{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: black;
-    padding: 0.3rem 0.1rem;
-    border-radius: 0.5rem;
-    background-color: white;
+.gridPonudaAktivnosti a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  padding: 0.3rem 0.1rem;
+  border-radius: 0.5rem;
+  background-color: white;
 }
-.panoramaPdfs{
-   margin-top: -10rem;
-    background: lightgray;
-    height: auto;
+.panoramaPdfs {
+  margin-top: -10rem;
+  background: lightgray;
+  height: auto;
 }
-.gridPdfDownload{
-    margin: 1rem auto;
-    padding-top: 7rem;
-    padding-bottom: 4rem;
+.gridPdfDownload {
+  margin: 1rem auto;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
 }
-.downloadSinglePdf{
-    background-color: white;
-    border: 1px solid blue;
-    width: 17rem;
-    height: 10rem;
-display: flex;
-align-items: center;
-justify-content: center;
+.downloadSinglePdf {
+  background-color: white;
+  border: 4px solid red;
+  width: 19rem;
+  height: 14rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.81);
+  box-shadow: 0px 0px 9px 2px rgba(218, 199, 30, 0.51);
 }
-.downloadSinglePdf button{
-    padding: 1rem;
-    background: blue;
-    color: white;
+.downloadSinglePdf h2 {
+  font-family: "Patrick Hand", cursive;
+  color: red;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
-.gridPdfDownload{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 2rem;
-    column-gap: 1rem;
+.downloadSinglePdf p {
+  margin-bottom: 2rem;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.1rem;
 }
-.panoramaLokacija{
-    background: #FFDD00;
-    color:#011689;
-    padding: 5rem 2rem;
+.downloadSinglePdf button {
+  padding: 0.7rem 1rem;
+  background: blue;
+  color: white;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1rem;
 }
-.containerLokacija{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 60%;
-    flex-wrap: wrap;
+.downloadSinglePdf button a {
+  color: white;
+  text-decoration: none;
 }
-
-.lokacijaLeft{
-    width: 30%;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1rem;
+.gridPdfDownload {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2rem;
+  column-gap: 1rem;
 }
-.lokacijaRight{
-    width: 45%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
+.panoramaLokacija {
+  background: #ffdd00;
+  color: #011689;
+  padding: 5rem 2rem;
 }
-.lokacijaRight h1{
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-.lokacijaRight a{
-    text-decoration: none;
-    color: #011689;
-    border: 1px solid #011689;
-    padding: 0.4rem 0.6rem;
-    font-size: 1.2rem;
-    text-transform: capitalize;
-
+.containerLokacija {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  flex-wrap: wrap;
 }
 
-.oNamaWrapp{
-    width: 100%;
-    height: 30rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.lokacijaLeft {
+  width: 30%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
 }
-.oNamaLeft{
-    width: 50%;
-    
-    height: 90%;
+.lokacijaRight {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
-.oNamaLeft .image1{
-    width: 70%;
-    height: 13rem;
-  
-    margin: 2rem auto;
-    border-radius: 2rem;
+.lokacijaRight h1 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
-
-.oNamaLeft .image2{
-    width: 40%;
-    height: 10rem;
-    
-    margin: 3rem auto;
-    border-radius: 2rem;
+.lokacijaRight a {
+  text-decoration: none;
+  color: #011689;
+  border: 1px solid #011689;
+  padding: 0.4rem 0.6rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
 }
 
-.oNamaRight{
-    width: 30%;
-    border: 1px solid #3AAA35;
-    height: 90%;
+.oNamaWrapp {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.oNamaLeft {
+  width: 50%;
+
+  height: 90%;
+}
+.oNamaLeft .image1 {
+  width: 70%;
+  height: 13rem;
+
+  margin: 1rem auto 5rem;
+  border-radius: 2rem;
 }
 
-.oNamaRight{
- color: white;
- background: #3AAA35;
-text-align: right;
-padding: 2rem;
+.oNamaLeft .image2 {
+  width: 40%;
+  height: 10rem;
+
+  margin: 1rem auto 5rem;
+  border-radius: 2rem;
 }
 
-.oNamaRight h1{ 
-    text-transform: uppercase;
-    margin: 2rem auto;
+.oNamaRight {
+  width: 30%;
+  border: 1px solid #3aaa35;
+  height: 90%;
 }
 
-.oNamaRight p{
-    font-size: 1.3rem;
-}
-.oNamaWrapp2{
-    width: 100%;
-}
-
-.firstPart{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2rem auto;
+.oNamaRight {
+  color: white;
+  background: #3aaa35;
+  text-align: right;
+  padding: 2rem;
 }
 
-.partText{
-    padding: 3rem 4rem;
-    width: 40%;
-    background: #0069B4;
-    color: white;
-    height: auto;
-    font-size: 1.4rem;
-}
-.partImg{
-    width: 25%;
-    height: 15rem;
-    margin: 3rem auto;
-    border-radius: 2rem;
+.oNamaRight h1 {
+  text-transform: uppercase;
+  margin: 2rem auto;
 }
 
-.secondPart{
-    width: 100%;
-    margin-right: 10%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.oNamaRight p {
+  font-size: 1.3rem;
+}
+.oNamaWrapp2 {
+  width: 100%;
 }
 
-.secondPartText6{
-    background: white;
-    color: #0069B4;
-    margin: 0;
+.firstPart {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10rem auto 2rem;
 }
 
-.secondPartImg{
-    border-color: #0069B4;
-    width: 40%;
-    height: 20rem;
-} 
-
-footer{
-    width: 100%;
-    margin: 4rem auto 0;
-    background-color: rgb(0, 144, 192);
-    height: 10rem;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-weight: 100;
+.partText {
+  padding: 3rem 4rem;
+  width: 40%;
+  background: #0069b4;
+  color: white;
+  height: auto;
+  font-size: 1.4rem;
+}
+.partImg {
+  width: 25%;
+  height: 15rem;
+  margin: 3rem auto;
+  border-radius: 2rem;
 }
 
-.footerMid p{
-    font-size: 1.3rem;
-}
-.footerRight{
-    width: 10%;
-}
-.footerRight ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    list-style-type: none;
-}
-.socialIcon{
-    font-size: 1.6rem;
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
+.secondPart {
+  width: 100%;
+  margin-right: 10%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.burger div{
-    width: 25px;
-    height: 3px;
-    background-color: #011689;
-    margin: 5px;
-}
-.burger{
-    display: none;
-    cursor: pointer;
-    margin-left: 85%;
+.secondPartText6 {
+  background: white;
+  color: #0069b4;
+  margin: 0;
 }
 
-.podkategorijaIgre{
-    
+.secondPartImg {
+  border-color: #0069b4;
+  width: 40%;
+  height: 20rem;
 }
-.igraHover{}
 
-.description{
-    z-index: 100;
-    display: none;
+footer {
+  width: 100%;
+  margin: 2rem auto 0;
+  background-color: rgb(0, 144, 192);
+  height: 10rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 100;
+}
+footer .navLogo {
+  background: url("./images/otlogo.png");
+  width: 8.5rem;
+  height: 5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.footerMid p {
+  font-size: 1.3rem;
+}
+.footerRight {
+  width: 10%;
+}
+.footerRight ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  list-style-type: none;
+}
+.socialIcon {
+  font-size: 1.6rem;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #011689;
+  margin: 5px;
+}
+.burger {
+  display: none;
+  cursor: pointer;
+  margin-left: 85%;
+}
+
+.podkategorijaIgre {
+}
+.igraHover {
+}
+
+.description {
+  z-index: 100;
+  display: none;
+}
+.titleDesc {
+  font-size: 1.9rem;
 }
 
 .igraHover:hover + .description {
-    color: white;
-    background: #0099ffd5;
-    height: 60vh;
-    width: 70vw;
-display: block;
-position: absolute;
-right: 6.5%;
-border: 1px solid #0099ffbe;
-  }
-
-@media screen and (max-width: 768px) {
-    body{
-        overflow-x: hidden;
-    }
-    .burger{
-        display: block;
-    }
-    nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .navRight{
-        display: none;
-    }
-    .headerList{
-        position: absolute;
-        right: 0px;
-        top: 4.2rem;
-        height: 100vh;
-        background-color: #011589f1;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content:space-evenly;
-        width: 100%;
-        color: #fff;
-        transform: translate(100%);
-    }
-    .headerList a{
-        color: #fff;
-    }
-    .ucenjeZabava{
-        width: 100%;
-        text-align: center;
-    }
-    .videoContainer{
-        padding: 5rem 8.5rem;
-    }
-
-    .ucenjeTekst{
-        width: 98%;
-        text-transform: capitalize;
-    }
-
-    .ucenjeParagraf{
-        width: 100%;
-    }
-
-    .gridPonudaIgara{
-        row-gap: 2rem;
-        grid-template-columns: 1fr;
-    }
-    .ponudaIgre{
-        width: 100%;
-    }
-    .gridPdfDownload{
-        grid-template-columns: 1fr;
-    }
-    .izaberiAktivnost{
-        width: 90%;
-    }
-    .partText{
-        width: 100%;
-        padding:3rem 2rem ;
-        text-align: center;
-    }
-    
-    .partImg{
-        width: 90%;
-        margin: 2rem auto;
-    }
-    .containerLokacija{
-        flex-direction: column;
-    }
-    .oNamaRight{
-        text-align: center;
-        margin: 1rem auto;
-        width: 73%;
-    }
-    .oNamaLeft{
-        width: 100%;
-        margin: 4rem auto 0;
-    }
-    .oNamaWrapp{
-        height: auto;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    
+  color: white;
+  background: #0099ffe3;
+  height: 60vh;
+  width: 70vw;
+  display: block;
+  position: absolute;
+  right: 6.5%;
+  border: 1px solid #0099ffbe;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .burger {
+    display: block;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navRight {
+    display: none;
+  }
+  .headerList {
+    position: absolute;
+    right: 0px;
+    top: 4.2rem;
+    height: 100vh;
+    background-color: #011589f1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    color: #fff;
+    transform: translate(100%);
+  }
+  .headerList a {
+    color: #fff;
+  }
+  .ucenjeZabava {
+    width: 100%;
+    text-align: center;
+  }
+  .videoContainer {
+    padding: 5rem 8.5rem;
+  }
 
-.nav-active{
-    transform: translate(0%);
-    transition: transform 0.5s ease-in;
+  .ucenjeTekst {
+    width: 98%;
+    text-transform: capitalize;
+  }
+
+  .ucenjeParagraf {
+    width: 100%;
+  }
+  /*   <div class="description">
+  <div class="titleDesc">Shopping</div>
+  <p>
+
+  <br>
+  </p>
+  </div> */
+
+  .gridPonudaIgara {
+    grid-template-columns: 1fr;
+  }
+  .ponudaIgre {
+    width: 100%;
+  }
+  .gridPdfDownload {
+    grid-template-columns: 1fr;
+  }
+  .izaberiAktivnost {
+    width: 90%;
+  }
+  .partText {
+    width: 100%;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .partImg {
+    width: 90%;
+    margin: 2rem auto;
+  }
+  .containerLokacija {
+    flex-direction: column;
+  }
+  .oNamaRight {
+    text-align: center;
+    margin: 1rem auto;
+    width: 73%;
+  }
+  .oNamaLeft {
+    width: 100%;
+    margin: 4rem auto 0;
+  }
+  .oNamaWrapp {
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+.nav-active {
+  transform: translate(0%);
+  transition: transform 0.5s ease-in;
 }
