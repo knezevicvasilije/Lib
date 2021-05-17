@@ -822,8 +822,21 @@ footer .navLogo {
     font-size: 1.2rem;
     line-height: 1.8rem;
     font-family: 'Poppins', sans-serif;
-    
   }
+
+  .ponudaIgre .img {
+    background: white;
+    width: 70%;
+    margin: 0.1rem 0.1rem;
+    /* padding: 0.5rem; */
+    height: 9rem;
+    border-radius: 1rem;
+}
+
+  .ponudaIgre .img img {
+    width: 98%;
+    height: 97%;
+}
 }
 
 .nav-active {
