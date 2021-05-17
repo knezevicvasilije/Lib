@@ -530,7 +530,9 @@ justify-content: center;
   width: 40%;
   height: 20rem;
 }
-
+.partImg .secondPartImg img{
+  width: 30rem;
+}
 footer {
   width: 100%;
   margin: 2rem auto 0;
@@ -595,6 +597,8 @@ footer .navLogo {
   font-size: 2rem;
   font-weight: 500;
 }
+
+
 
 .igraHover:hover + .description {
   color: white;
@@ -773,11 +777,14 @@ footer .navLogo {
   .panoramaLokacija{
     width: 100%;
   }
+  .footerLeft{
+    display: none;
+  }
   .footerRight {
     width: 26%;
 }
-.footerMid{
-  display: none;
+.footerMid p{
+  font-size: 1rem;
 }
   .oNamaLeft .image1 {
     width: 75%;}
@@ -832,10 +839,10 @@ footer .navLogo {
 
   .ponudaIgre .img {
     background: white;
-    width: 83%;
+    width: 79%;
     margin: 0.1rem 0.1rem;
     /* padding: 0.5rem; */
-    height: 14rem;    border-radius: 1rem;
+    height: 10rem;    border-radius: 1rem;
 }
 
   .ponudaIgre .img img {
@@ -843,7 +850,7 @@ footer .navLogo {
     height: 97%;
 }
 .videoContainer {
-  overflow:hidden;
+  overflow:hidden !important;
 }
 }
 
