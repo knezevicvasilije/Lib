@@ -611,7 +611,6 @@ footer .navLogo {
   font-size: 1.4rem;
   line-height: 2rem;
   font-family: 'Poppins', sans-serif;
-  
 }
 
 
@@ -622,17 +621,21 @@ footer .navLogo {
   .burger {
     display: block;
   }
+
   nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
   .container{
     width: 90%;
   }
+
   .navRight {
     display: none;
   }
+
   .headerList {
     position: absolute;
     right: 0px;
@@ -648,12 +651,15 @@ footer .navLogo {
     z-index: 300;
     transform: translate(100%);
   }
+
   .ucenjeTekst h1{
     font-size: 2.5rem;
   }
+
   .headerList a {
     color: #fff;
   }
+  
   .ucenjeVideo{
     width: 100%;
     margin-top: 2rem;
@@ -826,16 +832,18 @@ footer .navLogo {
 
   .ponudaIgre .img {
     background: white;
-    width: 70%;
+    width: 83%;
     margin: 0.1rem 0.1rem;
     /* padding: 0.5rem; */
-    height: 9rem;
-    border-radius: 1rem;
+    height: 14rem;    border-radius: 1rem;
 }
 
   .ponudaIgre .img img {
     width: 98%;
     height: 97%;
+}
+.videoContainer {
+  overflow:hidden;
 }
 }
 
