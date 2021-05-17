@@ -274,7 +274,7 @@ justify-content: center;
   /* flex-wrap: wrap; >> spusti izbor aktivnosti ispod */
 }
 .slobodneAktivnosti {
-  width: 72%;
+  width: 70%;
   background-color: #92c01f;
 
   color: white;
@@ -287,13 +287,13 @@ justify-content: center;
   text-align: center;
 }
 .slobodneAktivnostiTitle h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-transform: uppercase;
 }
 .slobodneAktivnostiContent {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .sacSlika {
   width: 30%;
@@ -598,8 +598,6 @@ footer .navLogo {
   font-weight: 500;
 }
 
-
-
 .igraHover:hover + .description {
   color: white;
   background: #0099ffe3;
@@ -820,14 +818,16 @@ footer .navLogo {
   footer{
     margin-top: 0;
   }
+.gridPonudaIgara {
+  position: relative;
+}
   .igraHover:hover + .description {
     color: white;
     background: #0099ffe3;
-    min-height: 30vw;
+    min-height: 500vw;
     height: auto;
     width: 100vw;
     display: block;
-    position: absolute;
    right: 0%;
     border: 1px solid #0099ffbe;
     padding: 0.5rem;
